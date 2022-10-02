@@ -1,12 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Heading from "./Heading";
-import List from "./List";
+import App from "./App";
 ReactDOM.render(
   <div>
     {/* Has to start with an uppercase letter */}
-    <Heading />
-    <List />
+    <App />
   </div>,
   document.getElementById("root")
 );
